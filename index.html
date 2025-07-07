@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Família!</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="card-container">
+    <h1>Quiz Família</h1>
+
+    <div id="quiz-container">
+      <p id="pergunta" class="pergunta"></p>
+      <div id="opcoes"></div>
+      <p id="mensagem-erro" style="color: red; font-weight: bold;"></p>
+    </div>
+
+    <div id="objetos-encontrados"></div>
+
+    <div id="final" style="display: none;">
+      <h2>⬇️⬇️⬇️ ARRASTE PARA BAIXO E DÊ O PLAY ⬇️⬇️⬇️ 🎉</h2>
+      <video controls autoplay width="100%">
+        <source src="revelacao.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeo.
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
